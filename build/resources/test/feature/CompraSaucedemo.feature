@@ -16,7 +16,10 @@ Feature: Compra de articulo en Saucedemo
 
     Examples:
       | username      | password     |
-      | standard_user | secret_sauce |
-      | standard_user | secret_sauce |
+
+     ##@externaldata@./src/test/resources/Datadriven/Saucedemo.xlsx@Hoja2
+   |standard_user   |secret_sauce|
+   |standard_user   |secret_sauce|
+
 
 
